@@ -11,7 +11,7 @@ const secondsLabel = document.getElementsByClassName('timer-seconds-label')[0]
 
 
 
-const mediaQuery = window.matchMedia('(width <= 360px)')
+const mediaQuery = window.matchMedia('(width <= 450px)')
 
 const targetDate = new Date('May 24, 2027 12:00:00').getTime()
 let timeUntilExams = 0;
